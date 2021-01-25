@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCB Landscaping Services</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/flickity.css" media="screen">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@300;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrap container">
+            <div class="header__logo-container header__item">
+                <img src="./img/logo-white.png" height="50px" width="237px" alt="logo">
+            </div>
+            <button class="menu__button" onclick="toggleMenu()" type="button">
+                <img src="./img/menu-icon.svg" alt="menu icon" id='menu-icon' class="menu__burger-icon" width="25" height="25">
+            <img src="./img/close.svg" alt="close icon" id='close-icon' class="menu__close-icon hidden" width="25" height="25">
+            </button>
+            <nav class="menu_desktop header__item" id='menu_desktop'>
+                <ul class="menu__list">
+                    <li class="menu__list-item"> <a href="#about" class="menu__list-link">about</a></li>
+                    <li class="menu__list-item"><a href="#services" class="menu__list-link">services</a></li>
+                    <li class="menu__list-item"><a href="#works" class="menu__list-link">works</a></li>
+                    <li class="menu__list-item"><a href="#contact-us" class="menu__list-link">contacts</a></li>
+                </ul>
+            </nav>
+            <nav class="menu_mobile hidden" id='menu_mobile'>
+                <ul class="menu__list_mobile">
+                    <li class="menu__list-item"> <a href="#" class="menu__list-link">about</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">services</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">works</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link">contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header__contact-info header__item">
+                <p class="header__contact-text"><a class="header__link" href="tel:8327922909">Call us: (832)-792-2909</a> <a class="header__link" href="mailto:robertbarlow95@yahoo.com">robertbarlow95@yahoo.com</a></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2 class="visually-hidden">Promo section</h2>
+            <div class="hero__wrap">
+                <h1 class="hero__title">Commercial <br> and residential landscaping</h1>
+                <h3 class="hero__promo-text">We will beat you current rate by 10% guaranteed!</h3>
+                <button class="hero__cta-button btn">Call Us</button>
+            </div>
+        </section>
+        <section class="about outer-wrap-odd container" id="about">
+            <div class="about__wrap inner-wrap">
+                <h2 class="about__title section-title">About us</h2>
+                <div class="about__content">
+                    <div class="about__logo-container">
+                        <img src="./img/logo-black.png" alt="logo" height="50px" width="237px">
+                    </div>
+                    <div class="about__text-wrap">
+                        <p class="about__text">
+                            RCB Services has been family owned and operated since 2010. The owner has been in commercial
+                            landscape and maintenance for over 30 years in Houston and surrounding areas. </p>
+                        <p class="about__text"> We work closely with property managers, HOA board members and residents
+                            to ensure we are meeting
+                            your communities needs. </p>
+                        <p class="about__text"> We pay attention to the details that larger companies can overlook, and
+                            always make ourselves
+                            available to our customers. We will provide a high quality service at a competitive rate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services outer-wrap-even container" id="services">
+            <div class="services__wrap inner-wrap">
+                <h2 class="about__title section-title">services</h2>
+                <div class="services__grid">
+                    <div class="services__item">
+                        <img class="services__icon" src="./img/lawn-mower.svg" alt="services icon" width="60"
+                            height="60">
+                        <h4 class="services__title">turf maintenance</h4>
+                        <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                            quia
+                            maxime at et perspiciatis dignissimos.</p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="./img/seeding.svg" alt="services icon" width="60" height="60">
+                        <h4 class="services__title">landscape design</h4>
+                        <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                            quia
+                            maxime at et perspiciatis dignissimos.</p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="./img/tree.svg" alt="services icon" width="60" height="60">
+                        <h4 class="services__title">shrub & tree trimming</h4>
+                        <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                            quia
+                            maxime at et perspiciatis dignissimos.</p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="./img/water-drops.svg" alt="services icon" width="60"
+                            height="60">
+                        <h4 class="services__title">irrigation service</h4>
+                        <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                            quia
+                            maxime at et perspiciatis dignissimos.</p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="./img/lotus.svg" alt="services icon" width="60" height="60">
+                        <h4 class="services__title">seasonal color</h4>
+                        <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                            quia
+                            maxime at et perspiciatis dignissimos.</p>
+                    </div>
+                    <div class="services__item">
+                        <img class="services__icon" src="./img/shovel.svg" alt="services icon" width="60" height="60">
+                        <h4 class="services__title">mulch installation</h4>
+                        <p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                            quia
+                            maxime at et perspiciatis dignissimos.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="works outer-wrap-odd container" id="works">
+            <div class="works__wrap inner-wrap">
+                <h2 class="works__title section-title">Works</h2>
+                <h3 class="carousel__title">Real pictures of our work</h3>
+                <ul class="carousel">
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_6735.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_2725.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_1495.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_2721.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_2724.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_1497.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_1499.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_1500.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    <li class="carousel__cell">
+                        <img src="./img/IMG_1501.jpg" alt="portfolio image" class="carousel__image">
+                    </li>
+                    
+                    
+                    
+                </ul>
+                <p class="carousel__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiorexime at et
+                    perspiciatis dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia
+                    maxime at et perspiciatis dignissimos. Lorem ipsum dolor sit amet consecteturt. Asperiores quia
+                    maxime
+                    at et perspiciatis dignissimos.</p>
+            </div>
+        </section>
+        <section class="contact-us outer-wrap-even container" id="contact-us">
+            <div class="contact-us__wrap inner-wrap">
+                <h2 class="contact-us__title section-title">Contact us</h2>
+                <p class="contact-us__subtitle">Please get in touch!</p>
+                <div class="contact-us__content">
+                    <ul class="contact-us__list">
+                        <li class="contact-us__item"><a class="contact-us__link" href="tel:8327922909">Call us: (832)-792-2909</a></li>
+                        <li class="contact-us__item">Send us an email: <a class="contact-us__link" href="mailto:robertbarlow95@yahoo.com">robertbarlow95@yahoo.com</a></li>
+                        <li class="contact-us__item">Or simply fill in the form on the right and we will call you back!</li> 
+                    </ul>
+                    <form action="#" class="contact-form">
+                        <input class="contact-form__input" type="text" name="name" id="name" placeholder="Your Name*" required>
+                        <label class="contact-form__label" for="name">Your name</label>
+                        <input class="contact-form__input" type="email" name="email" id="email" placeholder="Your Email*" required>
+                        <label class="contact-form__label" for="email">Your email</label>
+                        <textarea class="contact-form__textarea" name="message" id="message" cols="30"
+                            rows="10" placeholder="Your message"></textarea>
+                        <button class="contact-form__submit btn" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        Copyright 2021 RCB Services
+    </footer>
+    <script src="./js/menu-toggle.js"></script>
+    <script src="./js/flickity.pkgd.min.js"></script>
+    <script src="./js/carousel.js"></script>
+</body>
+
+</html>
