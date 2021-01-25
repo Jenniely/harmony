@@ -73,7 +73,7 @@ body {
   padding: 0 15px;
   font-family: "Lato";
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 22px;
   text-transform: capitalize;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .menu__list-link:hover {
-  font-weight: 400;
+  color: #5C8D89;
 }
 
 .menu__list-link:active {
