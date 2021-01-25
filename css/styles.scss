@@ -59,6 +59,10 @@ body {
     color: $white-color;
 }
 
+.header__link:hover {
+    color: $light-green-color;
+}
+
 .menu__button {
     display: none;
     background-color: transparent;
@@ -316,6 +320,10 @@ body {
 .contact-us__link {
     text-decoration: none;
     color: black;
+}
+
+.contact-us__link:hover {
+    color:$light-green-color;
 }
 
 .contact-form {

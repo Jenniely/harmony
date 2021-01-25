@@ -52,6 +52,10 @@ body {
   color: #F9F9F9;
 }
 
+.header__link:hover {
+  color: #5C8D89;
+}
+
 .menu__button {
   display: none;
   background-color: transparent;
@@ -307,6 +311,10 @@ body {
 .contact-us__link {
   text-decoration: none;
   color: black;
+}
+
+.contact-us__link:hover {
+  color: #5C8D89;
 }
 
 .contact-form {
