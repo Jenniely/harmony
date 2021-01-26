@@ -388,6 +388,10 @@ body {
   background-color: #003F3F;
 }
 
+.works__wrap {
+  padding-bottom: 35px;
+}
+
 .carousel {
   width: 100%;
   height: 600px;
@@ -427,6 +431,7 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 35px;
 }
 
 .partners__item {
