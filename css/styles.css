@@ -155,8 +155,11 @@ body {
   background-color: #002626;
 }
 
-.hero__cta-button {
-  width: 200px;
+.hero__cta-link {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 250px;
   margin: 0 auto;
 }
 
@@ -416,7 +419,12 @@ body {
   padding: 1em 0;
 }
 
+.carousel__title_bottom {
+  padding-top: 2em;
+}
+
 .carousel__text {
+  display: none;
   font-family: Quicksand;
   font-size: 14px;
   font-weight: 400;
