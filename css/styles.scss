@@ -4,6 +4,7 @@ $light-green-color: #5C8D89;
 $text-color: #0F001A;
 $muted-color: #878787;
 $white-color: #F9F9F9;
+  
 
 body {
     background-color: $white-color;
@@ -383,6 +384,15 @@ body {
 .contact-form__submit {
     margin-top: 15px;
     width: 140px;
+}
+
+.contact-form__submit:disabled {
+    background-color: $muted-color;
+}
+
+.contact-form__error {
+    color: $muted-color;
+    padding-top: 20px;
 }
 
 .footer {

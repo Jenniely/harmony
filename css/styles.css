@@ -377,6 +377,15 @@ body {
   width: 140px;
 }
 
+.contact-form__submit:disabled {
+  background-color: #878787;
+}
+
+.contact-form__error {
+  color: #878787;
+  padding-top: 20px;
+}
+
 .footer {
   height: 70px;
   width: 100%;
